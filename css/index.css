@@ -93,3 +93,126 @@
     height: 90px;
     margin: 0 auto;
 }
+
+/*top start*/
+.top {
+    width: 1190px;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+
+.logo div {
+    width: 140px;
+    height: 58px;
+    background: url("../images/spirit.png") no-repeat;
+    margin-top: 8px;
+}
+
+.logo div a {
+    width: 140px;
+    height: 58px;
+    display: block;
+    text-indent: -2000em; /*让文字飞到屏幕外面*/
+}
+
+.search {
+    width: 760px;
+    height: 100px;
+    float: left;
+}
+
+.search-hd {
+    height: 25px;
+}
+
+.search-hd li {
+    width: 50px;
+    height: 25px;
+    float: left;
+    text-align: center;
+    line-height: 25px;
+}
+
+.search-hd li.current {
+    background: #ff5400;
+    font-weight: bold;
+    color: #fff;
+}
+
+.search-bd {
+    height: 40px;
+}
+
+.search-bd-l {
+    width: 722px;
+    height: 40px;
+    float: left;
+    background: pink;
+}
+
+.search-input {
+    width: 618px;
+    height: 34px;
+    background: #ff5500;
+    padding: 3px 0px 3px 3px;
+    float: left;
+}
+
+.search-input div {
+    width: 618px;
+    height: 34px;
+    background: #fff;
+}
+
+.search-button {
+    width: 100px;
+    height: 40px;
+    background: green;
+    float: left;
+}
+
+.search-bd-r {
+    width: 38px;
+    height: 40px;
+    float: right;
+    text-align: right;
+}
+
+.code {
+    width: 94px;
+    height: 112px;
+    float: right;
+    border: 1px solid #CCC;
+    margin-top: -19px;
+    position: relative; /*相对定位*/
+}
+
+.code span {
+    display: block;
+    text-align: center;
+    padding-top: 6px;
+    color: #ff4400;
+}
+
+.code img {
+    margin-left: 8px;
+}
+
+.code s {
+    width: 18px;
+    height: 18px;
+    background: url("../images/code_03.png") no-repeat;
+    /*display: block;*/
+    position: absolute; /*如果是绝对定位，就是块元素。*/
+    border: 1px solid #CCCCCC;
+    top: -1px;
+    left: -20px;
+    cursor: pointer; /*手型*/
+}
