@@ -415,7 +415,36 @@
 
 .wrap-hd {
     height: 34px;
-    background: pink;
     border-bottom: 2px solid #f40;
-    margin-bottom:7px;
+    margin-bottom: 7px;
+}
+
+.nav-hd, .nav-bd {
+    margin-top: 4px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+
+.nav-hd li {
+    margin: 0 9px;
+    float: left;
+}
+
+.nav-hd li a {
+    display: block;
+    padding: 0 5px;
+    font-size:16px;
+    font-weight: bold;
+    /*font-family: "宋体";*/
+    color: #f40;
+}
+
+.nav-hd li a:hover {
+    background:#f4f4f4;
+}
+
+.wrap-bd {
+    height: 482px;
+    background: honeydew;
 }
