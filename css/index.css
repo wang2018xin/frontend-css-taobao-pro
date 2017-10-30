@@ -169,13 +169,58 @@
     width: 618px;
     height: 34px;
     background: #fff;
+    position: relative; /*父相*/
+}
+
+.search-input div input {
+    width: 618px;
+    height: 22px;
+    padding: 6px 0;
+    border: 0; /*文本框去掉边框*/
+}
+
+.search-input div i {
+    width: 12px;
+    height: 12px;
+    position: absolute; /*子绝*/
+    left: 12px;
+    top: 12px;
+    background: url("../images/fdj_06.png") no-repeat;
+}
+
+.search-input div span {
+    position: absolute;
+    left: 31px;
+    top: 9px;
+    color: #9c9c9c;
+}
+
+.search-input div s {
+    width: 17px;
+    height: 16px;
+    position: absolute; /*子绝*/
+    background: url("../images/fdj_03.png") no-repeat;
+    right: 9px;
+    top: 10px;
 }
 
 .search-button {
     width: 100px;
     height: 40px;
-    background: green;
     float: left;
+}
+
+.search-button button {
+    width: 100px;
+    height: 40px;
+    border: 0 none;
+    background: #ff4200;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 5px; /*控制文字间距离*/
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold; /*文字加粗*/
 }
 
 .search-bd-r {
@@ -183,6 +228,31 @@
     height: 40px;
     float: right;
     text-align: right;
+}
+
+.search-ft {
+    width: 722px;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+}
+
+.search-ft a {
+    margin-right: 5px;
+}
+
+.search-ft .more {
+    position: absolute;
+    border: 1px solid #ccc;
+    padding: 5px;
+    line-height: 12px;
+    right: -5px;
+    top: 3px;
+}
+
+.search-ft .more:hover {
+    background: #f40;
+    color: #fff;
 }
 
 .code {
