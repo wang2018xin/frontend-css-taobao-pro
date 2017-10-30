@@ -286,3 +286,136 @@
     left: -20px;
     cursor: pointer; /*手型*/
 }
+
+/*screen start*/
+.screen {
+    width: 1190px;
+    height: 525px;
+    margin: 0 auto;
+}
+
+.service {
+    width: 190px;
+    height: 525px;
+    float: left;
+}
+
+.service-hd {
+    height: 35px;
+    line-height: 35px;
+    background: #f40;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 14px;
+    font-weight: bold;
+}
+
+.service-bd {
+    border: 1px solid #f40;
+    border-top: 0;
+    height: 489px;
+}
+
+.service-bd dt {
+    height: 28px;
+    line-height: 28px;
+    padding: 5px 9px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.service-bd dt s {
+    width: 19px;
+    height: 19px;
+    background: url("../images/spire.png") no-repeat -110px -98px;
+    display: inline-block;
+    vertical-align: middle; /*行内块移动秘诀*/
+    margin-top: -3px; /*行内块移动长度*/
+    margin-right: 5px;
+}
+
+.catbox div {
+    padding: 0 7px 0 12px;
+    border: 2px solid #fff; /*f00*/
+    height: 22px;
+    line-height: 22px;
+    border-left-width: 1px;
+    border-right-color: #fff;
+    font-size: 0;
+    position: relative;
+}
+
+.catbox div a {
+    width: 37px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.catbox div i {
+    width: 5px;
+    height: 7px;
+    background: url("../images/arrow-service_03.png") no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.service-bd dt.special s {
+    width: 20px;
+    height: 16px;
+    background: url("../images/spire.png") no-repeat -201px -104px;
+}
+
+.special-dd {
+    margin: 0 9px;
+    padding: 0 0 8px 5px;
+    line-height: 22px;
+    font-size: 0;
+}
+
+.special-dd a {
+    width: 58px;
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+}
+
+.special-dd .c37 {
+    width: 37px;
+}
+
+.special-dd .c65 {
+    width: 65px;
+}
+
+.special-dd .c51 {
+    width: 51px;
+}
+
+.special-dd a i {
+    width: 9px;
+    height: 14px;
+    background: url("../images/hot.gif") no-repeat;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.last {
+    margin: 0 9px;
+    padding: 1px 0 5px 5px;
+    border-top: 1px solid #e6e7eb;
+}
+
+.wrap {
+    width: 990px;
+    height: 525px;
+    float: right;
+}
+
+.wrap-hd {
+    height: 34px;
+    background: pink;
+    border-bottom: 2px solid #f40;
+    margin-bottom:7px;
+}
