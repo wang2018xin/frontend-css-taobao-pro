@@ -432,19 +432,175 @@
 }
 
 .nav-hd li a {
-    display: block;
+    display: inline-block;
     padding: 0 5px;
-    font-size:16px;
+    font-size: 16px;
     font-weight: bold;
     /*font-family: "宋体";*/
     color: #f40;
 }
 
 .nav-hd li a:hover {
-    background:#f4f4f4;
+    background: #f4f4f4;
+}
+
+.nav-bd li {
+    float: left;
+    margin-left: 14px;
+    font-size: 14px;
+    /*font-family: "宋体";*/
+    font-weight: bold;
+    color: #3c3c3c;
+}
+
+.nav-bd .pipe {
+    margin-left: 6px;
+    font-weight: normal;
+    color: #f40;
+}
+
+.nav-bd li a {
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.nav-bd li a:hover {
+    background: #f4f4f4;
+    color: #f40;
 }
 
 .wrap-bd {
     height: 482px;
-    background: honeydew;
+}
+
+.wrap-bd-l {
+    width: 520px;
+    height: 482px;
+    float: left;
+}
+
+.banner {
+    height: 280px;
+    position: relative;
+}
+
+.banner ul {
+    width: 70px;
+    height: 9px;
+    _background: #ccc;
+    padding: 2px 0;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.banner ul li {
+    width: 9px;
+    height: 9px;
+    margin-left: 4px;
+    background: rgb(183, 183, 183);
+    float: left;
+    border-radius: 50%;
+    cursor: pointer;
+    _display: inline;
+    overflow: hidden;
+}
+
+.banner ul li.current {
+    background: #f40;
+}
+
+.banner a {
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.banner a i {
+    width: 15px;
+    height: 23px;
+    display: block;
+    background: url("../images/sprite.png") no-repeat -150px -310px;
+    margin: 10px 0 0 12px;
+}
+
+.banner .left {
+    left: 10px;
+}
+
+.banner .left i {
+    background-position: -150px -335px;
+}
+
+.banner .right {
+    right: 10px;
+}
+
+.tmall {
+    width: 520px;
+    height: 198px;
+    margin-top: 4px;
+    background: darkcyan;
+    overflow: hidden; /*溢出隐藏*/
+    position: relative;
+}
+
+.tmall-box {
+    width: 530px;
+}
+
+.tmall-box img {
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    float: left;
+}
+
+.tmall s {
+    width: 32px;
+    height: 11px;
+    background: url("../images/spire.png") no-repeat -146px -120px;
+    position: absolute;
+    left: 50%;
+    margin-left: -16px;
+    bottom: 0;
+    overflow: hidden; /*ie6*/
+}
+
+.wrap-bd-c {
+    width: 170px;
+    height: 482px;
+    float: left;
+    margin-left: 3px;
+}
+
+.wrap-bd-c-t {
+    height: 280px;
+    margin-bottom: 3px;
+}
+
+.wrap-bd-r {
+    width: 290px;
+    height: 482px;
+    float: right;
+}
+
+.notice {
+    height: 98px;
+    border: 1px solid #eee;
+}
+
+.notice-hd {
+    height: 27px;
+    background: lightgray;
+}
+
+.notice-bd {
+    height: 71px;
+    background: lightcoral;
 }
